@@ -1,0 +1,20 @@
+# 依赖目录（npm install 即可恢复，体积大不提交）
+node_modules/
+
+# Vite 构建产物（npm run build 重新生成）
+dist/
+
+# 运行时数据文件（程序启动时自动创建）
+app/data/todos.json
+
+# 原子写入临时文件
+*.tmp
+
+# 编辑器 / IDE 配置
+.vscode/
+.idea/
+
+# 操作系统生成文件
+Thumbs.db
+Desktop.ini
+.DS_Store
